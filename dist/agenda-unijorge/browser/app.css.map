@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.css"],
+  "sourcesContent": ["/* cabecalho: faixa azul de ponta a ponta, conteudo centralizado dentro */\n\n.topo {\n  background: linear-gradient(135deg, var(--azul-escuro), var(--azul-claro));\n  border-bottom: 3px solid var(--ouro);\n  padding: 22px 0 0;\n  margin-bottom: 32px;\n}\n\n.faixa {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n}\n\n.topo h1 {\n  margin: 0;\n  font-size: 21px;\n  letter-spacing: -0.01em;\n  color: #fff;\n}\n\n.menu {\n  display: flex;\n  gap: 4px;\n  flex-wrap: wrap;\n}\n\n.menu a {\n  text-decoration: none;\n  color: #c9dcf3;\n  font-size: 14px;\n  padding: 8px 14px;\n  border-bottom: 3px solid transparent;\n}\n\n.menu a:hover {\n  color: #fff;\n}\n\n.menu a.ativo {\n  color: #fff;\n  font-weight: 600;\n  border-bottom-color: var(--ouro);\n}\n\n.conteudo {\n  padding-bottom: 64px;\n}\n"],
+  "mappings": ";AAEA,CAAC;AACC;AAAA,IAAY;AAAA,MAAgB,MAAM;AAAA,MAAE,IAAI,cAAc;AAAA,MAAE,IAAI;AAC5D,iBAAe,IAAI,MAAM,IAAI;AAC7B,WAAS,KAAK,EAAE;AAChB,iBAAe;AACjB;AAEA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,OAAK;AACP;AAEA,CAbC,KAaK;AACJ,UAAQ;AACR,aAAW;AACX,kBAAgB;AAChB,SAAO;AACT;AAEA,CAAC;AACC,WAAS;AACT,OAAK;AACL,aAAW;AACb;AAEA,CANC,KAMK;AACJ,mBAAiB;AACjB,SAAO;AACP,aAAW;AACX,WAAS,IAAI;AACb,iBAAe,IAAI,MAAM;AAC3B;AAEA,CAdC,KAcK,CAAC;AACL,SAAO;AACT;AAEA,CAlBC,KAkBK,CAAC,CAAC;AACN,SAAO;AACP,eAAa;AACb,uBAAqB,IAAI;AAC3B;AAEA,CAAC;AACC,kBAAgB;AAClB;",
+  "names": []
+}
